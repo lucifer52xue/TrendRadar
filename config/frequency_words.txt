@@ -149,29 +149,29 @@
 
 [WORD_GROUPS]
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
+# /智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
+# /众擎|EngineAI|赵同阳/ => 众擎机器人
 
-/特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
+# /特斯拉|马斯克|\bTesla\b|\bElon Musk\b|\bCybertruck\b|\bModel 3\b|\bModel Y\b|\bModel S\b|\bModel X\b|\bFSD\b/ => 特斯拉
 
-/英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
-/苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
+# /英伟达|黄仁勋|\bNVIDIA\b|\bGeForce\b|\bRTX\b|\bCUDA\b|\bJensen Huang\b/ => 英伟达
+# /苏姿丰|锐龙|霄龙|\bAMD\b|\bRyzen\b|\bEPYC\b|\bRadeon\b|\bLisa Su\b/ => AMD
 
-/微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
-/谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
-/库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
+# /微软|\bMicrosoft\b|\bWindows\b|\bAzure\b|\bSatya Nadella\b|\bCopilot\b/ => 微软
+# /谷歌|皮查伊|安卓|油管|\bGoogle\b|\bAlphabet\b|\bAndroid\b|\bChrome\b|\bYouTube\b|\bGemini\b|\bDeepMind\b|\bWaymo\b/ => 谷歌
+# /库克|\biPhone\b|\biPad\b|\bMacBook\b|\biOS\b|\bVision Pro\b|\bAirPods\b|\bApple\b|\bTim Cook\b/ => 苹果
 
-/\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
-/\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
+# /\bOpenAI\b|\bChatGPT\b|\bSora\b|\bDALL-E\b|\bSam Altman\b|\bGreg Brockman\b/ => OpenAI
+# /\bAnthropic\b|\bClaude\b|\bDario Amodei\b/ => Claude
 
 
 # ═══════════════════════════════════════════════════════════════
 #                         科技领域
 # ═══════════════════════════════════════════════════════════════
 
-[AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/
-人工智能
+# [AI 相关]
+# /(?<![a-zA-Z])ai(?![a-zA-Z])/
+# 人工智能
 
 /比亚迪|特斯拉|蔚来|小鹏|理想|问界|鸿蒙智行|小米汽车|极氪|吉利|长城|长安|奇瑞|上汽|广汽|东风|一汽|红旗|五菱|宝骏|赛力斯|零跑|哪吒|腾势|仰望|方程豹|深蓝|阿维塔|智界|享界|尊界|岚图|猛士|埃安|昊铂|智己|飞凡|领克|哈弗|坦克|魏牌|欧拉|星途|捷途|奇瑞新能源|北汽|极狐|江淮|江铃|广汽传祺|广汽丰田|广汽本田|一汽大众|一汽丰田|上汽大众|上汽通用|东风日产|东风本田|奔驰|宝马|奥迪|大众|丰田|本田|日产|福特|通用|别克|雪佛兰|凯迪拉克|现代|起亚|保时捷|雷克萨斯|沃尔沃|路虎|捷豹|林肯|马自达|斯巴鲁|三菱|铃木|法拉利|兰博基尼|玛莎拉蒂|劳斯莱斯|宾利|迈凯伦|阿斯顿马丁|宁德时代|李书福|王传福|马斯克|埃隆马斯克|李斌|何小鹏|李想|雷军|余承东|张兴海|尹同跃|朱华荣|魏建军|曾毓群|秦|汉|唐|宋|元|海豚|海豹|海狮|仰望U8|仰望U9|腾势D9|豹5|豹8|理想L6|理想L7|理想L8|理想L9|理想MEGA|蔚来ES6|蔚来ES8|蔚来ET5|蔚来ET7|小鹏P7|小鹏G6|小鹏G9|小鹏X9|问界M5|问界M7|问界M8|问界M9|智界S7|智界R7|享界S9|小米SU7|小米YU7|极氪001|极氪007|极氪009|哈弗H6|坦克300|坦克500|\bModel 3\b|\bModel Y\b|\bCybertruck\b|\bBYD\b|\bTesla\b|\bNIO\b|\bXPeng\b|\bLi Auto\b|\bAITO\b|\bHIMA\b|\bXiaomi Auto\b|\bZeekr\b|\bGeely\b|\bGWM\b|\bChangan\b|\bChery\b|\bSAIC\b|\bGAC\b|\bDongfeng\b|\bFAW\b|\bHongqi\b|\bWuling\b|\bBaojun\b|\bSeres\b|\bLeapmotor\b|\bNeta\b|\bDenza\b|\bYangwang\b|\bAvatr\b|\bLuxeed\b|\bStelato\b|\bVoyah\b|\bAion\b|\bHyper\b|\bIM\b|\bRising\b|\bLynk\b|\bHaval\b|\bTank\b|\bWEY\b|\bORA\b|\bExeed\b|\bJetour\b|\bBAIC\b|\bArcfox\b|\bJAC\b|\bJMC\b|\bMercedes-Benz\b|\bBMW\b|\bAudi\b|\bVolkswagen\b|\bToyota\b|\bHonda\b|\bNissan\b|\bFord\b|\bGM\b|\bBuick\b|\bChevrolet\b|\bCadillac\b|\bHyundai\b|\bKia\b|\bPorsche\b|\bLexus\b|\bVolvo\b|\bLand Rover\b|\bJaguar\b|\bLincoln\b|\bMazda\b|\bSubaru\b|\bMitsubishi\b|\bSuzuki\b|\bFerrari\b|\bLamborghini\b|\bMaserati\b|\bRolls-Royce\b|\bBentley\b|\bMcLaren\b|\bAston Martin\b|\bCATL\b|\b002594\b|\bTSLA\b|\bNIO\b|\bXPEV\b|\bLI\b|\b0175\b|\b601633\b|\b000625\b|\b601127\b|\b9866\b|\b2015\b|\b9868\b|\b9863\b|\b1211\b|\b9869\b|汽车|车企|新能源车|电动车|燃油车|混动车|插混|增程|\bSUV\b|\bMPV\b|轿车|车型|新车|试驾|召回|车主|购车|提车|智驾|自动驾驶|智能座舱|动力电池|三电|动力电池|电机|电控|\bBMS\b|\b800V\b|超充|换电|激光雷达|毫米波雷达|\bNOA\b|\bAEB\b|\bACC\b|\bL2\b|\bL3\b|\bFSD\b|\bOTA\b|智能座舱|车机|\bHUD\b|空气悬架|线控底盘|一体化压铸|固态电池|钠离子电池|比亚迪|\bBYD\b|吉利|\bGeely\b|长城|\bGreat Wall\b|长城汽车|\bGWM\b|哈弗|\bHaval\b|魏牌|\bWEY\b|坦克|\bTank\b|欧拉|\bORA\b|长安|\bChangan\b|深蓝|启源|阿维塔|\bAvatr\b|奇瑞|\bChery\b|星途|\bExeed\b|捷途|\bJetour\b|\biCAR\b|上汽|\bSAIC\b|荣威|\bRoewe\b|名爵|\bMG\b|飞凡|\bRising\b|智己|\bIM\b|广汽|\bGAC\b|传祺|\bTrumpchi\b|埃安|\bAion\b|昊铂|\bHyper\b|东风|\bDongfeng\b|岚图|\bVoyah\b|猛士|\bM-Hero\b|一汽|\bFAW\b|红旗|\bHongqi\b|奔腾|\bBestune\b|北汽|\bBAIC\b|北京汽车|极狐|\bArcfox\b|江淮|\bJAC\b|江铃|\bJMC\b|五菱|\bWuling\b|宝骏|\bBaojun\b|东南|海马|众泰|力帆|特斯拉|\bTesla\b|蔚来|\bNIO\b|小鹏|\bXPeng\b|理想|\bLi Auto\b|零跑|\bLeapmotor\b|哪吒|\bNeta\b|问界|\bAITO\b|智界|\bLuxeed\b|享界|\bStelato\b|尊界|尚界|小米汽车|\bXiaomi Auto\b|极氪|\bZeekr\b|领克|\bLynk & Co\b|银河|吉利银河|方程豹|\bFangchengbao\b|腾势|\bDenza\b|仰望|\bYangwang\b|极越|\bJiyue\b|极石|\bPolestones\b|合创|\bHycan\b|高合|\bHiPhi\b|天际|\bENOVATE\b|威马|\bWM Motor\b|爱驰|\bAiways\b|前途|奇点|云度|自游家|\bNiutron\b|华为汽车|华为智选车|鸿蒙智行|\bHIMA\b|问界|智界|享界|尊界|尚界|赛力斯|\bSeres\b|北汽新能源|奇瑞智界|江淮尊界|上汽尚界|华为ADS\b|鸿蒙座舱|乾崑智驾|乾崑车控|华为途灵平台|大众|\bVolkswagen\b|\bVW\b|奥迪|\bAudi\b|宝马|\bBMW\b|奔驰|\bMercedes-Benz\b|梅赛德斯|保时捷|\bPorsche\b|迈巴赫|\bMaybach\b|\bMINI\b|斯柯达|\bSkoda\b|欧宝|\bOpel\b|丰田|\bToyota\b|雷克萨斯|\bLexus\b|本田|\bHonda\b|讴歌|\bAcura\b|日产|\bNissan\b|英菲尼迪|\bInfiniti\b|马自达|\bMazda\b|三菱|\bMitsubishi\b|斯巴鲁|\bSubaru\b|铃木|\bSuzuki\b|大发|\bDaihatsu\b|通用|\bGM\b|别克|\bBuick\b|雪佛兰|\bChevrolet\b|凯迪拉克|\bCadillac\b|福特|\bFord\b|林肯|\bLincoln\b|克莱斯勒|\bChrysler\b|\bJeep\b|道奇|\bDodge\b|\bRam\b|特斯拉|\bTesla\b|\bRivian\b|\bLucid\b|\bFisker\b|\bFaraday Future\b|现代|\bHyundai\b|起亚|\bKia\b|捷尼赛思|\bGenesis\b|标致|\bPeugeot\b|雪铁龙|\bCitroën\b|\bDS\b|雷诺|\bRenault\b|达契亚|\bDacia\b|菲亚特|\bFiat\b|阿尔法·罗密欧|\bAlfa Romeo\b|玛莎拉蒂|\bMaserati\b|法拉利|\bFerrari\b|兰博基尼|\bLamborghini\b|宾利|\bBentley\b|劳斯莱斯|\bRolls-Royce\b|阿斯顿·马丁|\bAston Martin\b|迈凯伦|\bMcLaren\b|路特斯|\bLotus\b|沃尔沃|\bVolvo\b|\bPolestar\b|极星|萨博|\bSaab\b|\bCupra\b|西雅特|\bSeat\b|塔塔|\bTata\b|马恒达|\bMahindra\b|\bVinFast\b|\bProton\b|宝腾|\bPerodua\b/ => 汽车
 
